@@ -1,0 +1,13 @@
+$letra:(
+ 'uno': 1rem,
+ 'dos': 1.5rem,
+ 'tres': 2rem,
+ 'cuatro':2.5rem,
+);
+
+@mixin d-flex ($justify,$align, $flex-dire){
+    display: flex;
+    justify-content: $justify;
+    align-content: $align;
+    flex-direction: $flex-dire;
+}
